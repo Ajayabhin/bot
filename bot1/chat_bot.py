@@ -48,7 +48,7 @@ def chat():
         prompt = f"User: {user_message}\nAssistant:"
         result = pipe(
             prompt,
-            max_new_tokens=100,
+            max_new_tokens=200,
             clean_up_tokenization_spaces=False
         )
 
